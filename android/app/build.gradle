@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.assets_monitora"
+        applicationId "com.react_native_template"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -207,8 +207,6 @@ dependencies {
     } else {
         implementation jscFlavor
     }
-    
-    compile project(':react-native-vector-icons')
 }
 
 // Run this once to be able to run the application with BUCK

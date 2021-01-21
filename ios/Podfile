@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'assets_monitora' do
+target 'react_native_template' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'assets_monitoraTests' do
+  target 'react_native_templateTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'assets_monitora' do
   end
 end
 
-target 'assets_monitora-tvOS' do
-  # Pods for assets_monitora-tvOS
+target 'react_native_template-tvOS' do
+  # Pods for react_native_template-tvOS
 
-  target 'assets_monitora-tvOSTests' do
+  target 'react_native_template-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

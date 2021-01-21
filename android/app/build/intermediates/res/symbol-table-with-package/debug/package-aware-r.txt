@@ -1,4 +1,4 @@
-com.assets_monitora
+com.react_native_template
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
